@@ -6,7 +6,6 @@ import {
   BookOpen, 
   Clock,
   FileText,
-  Settings,
   PlusCircle
 } from 'lucide-react';
 import { useAuthStore } from '../store/authStore';
@@ -27,7 +26,6 @@ export default function Sidebar() {
           { icon: Users, label: 'Users', path: '/users' },
           { icon: BookOpen, label: 'Subjects', path: '/subjects' },
           { icon: FileText, label: 'Assignments', path: '/assignments' },
-          { icon: Settings, label: 'Settings', path: '/settings' }
         ];
       case 'teacher':
         return [
